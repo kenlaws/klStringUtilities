@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/kenlaws/klStringUtilities.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes"
+  s.source_files  = "klStringUtilities"
   s.framework = "UIKit"
   s.requires_arc = true
 
