@@ -9,7 +9,7 @@
 import UIKit
 
 
-class StringUtilities {
+public class StringUtilities {
 	static let sharedInstance = StringUtilities()
 	
 	let roundCurrencyFormatter = NumberFormatter()
@@ -32,7 +32,7 @@ class StringUtilities {
 }
 
 
-extension String {
+public extension String {
 	
 	var len: Int {
 		return self.characters.count
@@ -145,7 +145,7 @@ extension String {
 }
 
 
-extension NSRange {
+public extension NSRange {
 	init(string:String, range:Range<String.Index>) {
 		let startPoint = string.distance(from: string.startIndex, to: range.lowerBound)
 		let lenPoint = string.distance(from: range.lowerBound, to: range.upperBound)
