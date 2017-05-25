@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>klStringUtilities.xcscheme</key>
+		<key>klStringUtilities-Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>41F8051B1ED62BAE00E088EA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>41F805241ED62BAE00E088EA</key>
+		<key>93071F9F1ED749B3008009C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
