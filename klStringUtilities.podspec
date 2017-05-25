@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 	This is a small set of Swift 3.0 based string utilities providing some simple
 	shortcuts and conveniences that, well, I found useful. Maybe you will, too.
+	However, the primary use of this pod at first will be to support a couple of
+	bigger ones coming after it.
                    DESC
 
   s.homepage     = "https://github.com/kenlaws/klStringUtilities"
