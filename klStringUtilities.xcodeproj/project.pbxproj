@@ -56,7 +56,7 @@
 		41F805121ED62BAE00E088EA = {
 			isa = PBXGroup;
 			children = (
-				41F8051E1ED62BAE00E088EA /* klStringUtilities */,
+				41F8051E1ED62BAE00E088EA /* Classes */,
 				41F805291ED62BAE00E088EA /* klStringUtilitiesTests */,
 				41F8051D1ED62BAE00E088EA /* Products */,
 			);
@@ -71,14 +71,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41F8051E1ED62BAE00E088EA /* klStringUtilities */ = {
+		41F8051E1ED62BAE00E088EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				41F805361ED62BCA00E088EA /* StringUtilities.swift */,
 				41F8051F1ED62BAE00E088EA /* klStringUtilities.h */,
 				41F805201ED62BAE00E088EA /* Info.plist */,
 			);
-			path = klStringUtilities;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		41F805291ED62BAE00E088EA /* klStringUtilitiesTests */ = {
@@ -408,6 +408,7 @@
 				41F805321ED62BAE00E088EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F805331ED62BAE00E088EA /* Build configuration list for PBXNativeTarget "klStringUtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				41F805351ED62BAE00E088EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
