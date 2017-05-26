@@ -11,35 +11,41 @@ import UIKit
 
 public class StringUtilities {
 	static let sharedInstance = StringUtilities()
-	
+
 	let roundCurrencyFormatter = NumberFormatter()
 	let specificCurrencyFormatter = NumberFormatter()
 	let numberFormatter = NumberFormatter()
-	
-	
+
+
 	init() {
 		specificCurrencyFormatter.numberStyle = .currency
 		specificCurrencyFormatter.locale = NSLocale.current
-		
+
 		roundCurrencyFormatter.numberStyle = .currency
 		roundCurrencyFormatter.maximumFractionDigits = 0
 		roundCurrencyFormatter.locale = NSLocale.current
-		
+
 		numberFormatter.numberStyle = .none
 		numberFormatter.usesGroupingSeparator = true
 	}
-	
+
 }
 
 
 public extension String {
-	
+
+	/// Shortcut for self.characters.count
+	///
+	/// - Returns: integer count of characters
 	var len: Int {
 		return self.characters.count
 	}
 
-	
-	var charLen: Int {
+
+	/// Counts the number of human-visible characters in a String. That is, multiple glyph characters are counted as one.
+	///
+	/// - Returns: integer count of human-visible characters
+	var humanLen: Int {
 		var count = 0
 		self.enumerateSubstrings(in: self.startIndex ..< self.endIndex, options: .byComposedCharacterSequences) { (_, _, _, _) in
 			count += 1
@@ -49,16 +55,26 @@ public extension String {
 	}
 
 
+	/// A quick shortcut to remove any whitespace chars from the start and end of a string.
+	///
+	/// - Returns: the String, stripped of leading and trailing whitespace
 	var autoTrim: String {
 		return self.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
 	}
-	
 
+
+	/// Shortcut for localization. The String is run through NSLocalizedString.
+	///
+	/// - Returns: the result of the String being run through NSLocalizedString.
 	var loc:String {
 		return NSLocalizedString(self, comment: "")
 	}
 
 
+	/// Shortcut for localization. The string is run through NSLocalizedString with any '%' params replaced.
+	///
+	/// - Parameter params: one or more parameters to replace the '%' placeholders
+	/// - Returns: the result of the string from NSLocalizedString with the included params
 	func floc(_ params: Any...) -> String {
 		var formatted = self.loc
 		for i in 1...params.count {
@@ -67,7 +83,11 @@ public extension String {
 		return formatted
 	}
 
-	
+
+	/// Convert an NSRange into a Swift range
+	///
+	/// - Parameter nsRange: the NSRange to convert. If the range is out of bounds of the string, the function will return nil
+	/// - Returns: returns the Swift range, or nil if the NSRange was outside the bounds of the String
 	func rangeFromNSRange(nsRange : NSRange) -> Range<String.Index>? {
 		guard
 			let from16 = utf16.index(utf16.startIndex, offsetBy: nsRange.location, limitedBy: utf16.endIndex),
@@ -79,7 +99,11 @@ public extension String {
 	}
 
 
-	func charRangeFromNSRange(nsRange : NSRange) -> Range<String.Index>? {
+	/// Convert an NSRange taking into account multi-glyph characters
+	///
+	/// - Parameter nsRange: the NSRange to convert
+	/// - Returns: the Swift range, always on the border of a complete complex character. Note that it will return nil if the range is outside the bounds of the human range of characters
+	func humanRangeFromNSRange(nsRange : NSRange) -> Range<String.Index>? {
 		var charCount = 0
 		var fromRng:Range<String.Index>?
 		var toRng:Range<String.Index>?
@@ -112,7 +136,12 @@ public extension String {
 	}
 
 
-
+	/// Shortcut to find if a String contains a particular RegEx value.
+	///
+	/// - Parameters:
+	///   - regExString: the regular expression to look for
+	///   - ci: case insensitivity. Default is true
+	/// - Returns: a Bool indicating whether or not the RegEx was found
 	func containsRegEx(regExString:String, ci:Bool = true) -> Bool {
 		var options:NSString.CompareOptions = [.regularExpression]
 		if ci {
@@ -125,6 +154,10 @@ public extension String {
 	}
 
 
+	/// Returns an array of Strings with RegEx capture groups found in the receiver.
+	///
+	/// - Parameter regExString: The search string. It's best to include at least one capture group
+	/// - Returns: An array of Strings with the found capture groups, or nil of the search string was not found
 	func withMatchingPatterns(regExString:String) -> [String]? {
 		let regEx = try! NSRegularExpression(pattern: regExString, options: .useUnicodeWordBoundaries)
 		var results:[String] = []
@@ -142,11 +175,11 @@ public extension String {
 		return results
 	}
 
-
 }
 
 
 public extension ExpressibleByIntegerLiteral {
+	/// Returns a string rounded to the nearest Int, with localized grouping separators (i.e., ',') if appropriate.
 	var intString:String {
 		let rawStr = NumberFormatter.localizedString(from: self as! NSNumber, number: .none)
 		guard let rawInt = StringUtilities.sharedInstance.numberFormatter.number(from: rawStr) else {
@@ -158,6 +191,7 @@ public extension ExpressibleByIntegerLiteral {
 
 
 public extension BinaryFloatingPoint {
+	/// Returns a string formatted for the local currency, rounded off if passed a whole number.
 	var currencyString:String {
 		if self.truncatingRemainder(dividingBy: 1) == 0 {
 			return StringUtilities.sharedInstance.roundCurrencyFormatter.string(from: self as! NSNumber)!
@@ -169,6 +203,11 @@ public extension BinaryFloatingPoint {
 
 
 public extension NSRange {
+	/// Creates an NSRange from a Swift String range
+	///
+	/// - Parameters:
+	///   - string: the source String
+	///   - range: the source Range
 	init(string:String, range:Range<String.Index>) {
 		let startPoint = string.distance(from: string.startIndex, to: range.lowerBound)
 		let lenPoint = string.distance(from: range.lowerBound, to: range.upperBound)
