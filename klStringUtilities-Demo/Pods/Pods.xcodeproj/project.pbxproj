@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0516624BB9DDECD2033494F5FB03FF7D /* klStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D56BEBE3CA5B4E9392AB7B4BDC35291 /* klStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4892F6887AD9B9F9555FD3C81BB81DAB /* klStringUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3374F8EFF83343B70CDD5F8A30CE6E02 /* klStringUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BFB8C024C3F1714D2A54B44BF1D76A1 /* klStringUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20A4EA88ACD543DFA5CDCCC70B126 /* klStringUtilities-dummy.m */; };
-		5F0E5C9C271C0534B31EDAEB1D5A2B14 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07F143549A16EACFEAC1E7AD153C38 /* StringUtilities.swift */; };
+		054618D9AA75E0A15AFDE9FDB8067D57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		6C4519B2B08D3E71961E779EE48C5353 /* Pods-klStringUtilities-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2E4924F269BC3F22A7F4F988AFA229 /* Pods-klStringUtilities-Demo-dummy.m */; };
+		7808D0290AD58B81301489310ACC2149 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE85CF7E3C05205096F9DC7EA8FC472 /* StringUtilities.swift */; };
+		9B57C21ECBC8FC92542432CBCFCB1410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A9600D6688E7B3E277287474B0E77B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		B96B7BC255E4D032694521E51D1765A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		F29D8EFCF4A55674B2716E10B77AC9AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		D25AF83002CDF457E7317499E2DE6495 /* klStringUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEB4924D32A0B28DA68AE61FD1BF7AB /* klStringUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC322E8807BA94791004A904AF8B088B /* Pods-klStringUtilities-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9476C854B2258869F32039BA42C3D3 /* Pods-klStringUtilities-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6FC0C45EBC9C60C07F94FE98F3C4F5 /* klStringUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF798984713E3502928DAD99C9F7DC /* klStringUtilities-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,34 +22,33 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D8AD63E57D77398E0E013C44EA3267E;
+			remoteGlobalIDString = 790236834D8E45E57645410F81A32F18;
 			remoteInfo = klStringUtilities;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5A72E2D12A94C2BCBB291AE545EFBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26AA8427ED89F23994D7D98A0574909D /* Pods-klStringUtilities-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-Demo-resources.sh"; sourceTree = "<group>"; };
 		2BEAEB12D2EBF60151DA15E597E6D6E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3374F8EFF83343B70CDD5F8A30CE6E02 /* klStringUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "klStringUtilities-umbrella.h"; sourceTree = "<group>"; };
-		3B80717B5480961964667F13EFD04CDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DF20A4EA88ACD543DFA5CDCCC70B126 /* klStringUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "klStringUtilities-dummy.m"; sourceTree = "<group>"; };
+		32DEBD0FF09BA117682BD24C0FB6B719 /* klStringUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = klStringUtilities.xcconfig; sourceTree = "<group>"; };
 		411E0AA0216284CA21A7551EBF1C8395 /* Pods-klStringUtilities-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		47098C4A50C3C6D8B6A1EE29EE226477 /* Pods_klStringUtilities_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klStringUtilities_Demo.framework; path = "Pods-klStringUtilities-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEB4924D32A0B28DA68AE61FD1BF7AB /* klStringUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "klStringUtilities-umbrella.h"; sourceTree = "<group>"; };
 		4F4713FA89996BEA1DB972F65E29685A /* Pods-klStringUtilities-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klStringUtilities-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D56BEBE3CA5B4E9392AB7B4BDC35291 /* klStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = klStringUtilities.h; path = Classes/klStringUtilities.h; sourceTree = "<group>"; };
+		7CE85CF7E3C05205096F9DC7EA8FC472 /* StringUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtilities.swift; path = klStringUtilities/StringUtilities.swift; sourceTree = "<group>"; };
+		938E0D8CB8CC6CD6D68569AEAFAE4885 /* klStringUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "klStringUtilities-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E52FFAD3A32F1309B34713D493E885 /* klStringUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = klStringUtilities.framework; path = klStringUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9476C854B2258869F32039BA42C3D3 /* Pods-klStringUtilities-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klStringUtilities-Demo-umbrella.h"; sourceTree = "<group>"; };
-		A89B8C4B0F9B4CD5B975196149584CB5 /* klStringUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "klStringUtilities-prefix.pch"; sourceTree = "<group>"; };
-		AF3C61EA3FBC3C2BB8D64DB443A94E3C /* klStringUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = klStringUtilities.xcconfig; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BD07F143549A16EACFEAC1E7AD153C38 /* StringUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtilities.swift; path = Classes/StringUtilities.swift; sourceTree = "<group>"; };
 		C0AD0A9B8F19292F969410AC6961787A /* Pods-klStringUtilities-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		C43B1E5FEAE7DCB0D5A0C91BD350E119 /* Pods-klStringUtilities-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		CA3554B31A6B4D24EA7B99BA44A58412 /* Pods-klStringUtilities-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klStringUtilities-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E7AAD2CB88045A061D3FB2BC91BFCEC3 /* klStringUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = klStringUtilities.modulemap; sourceTree = "<group>"; };
+		DCDA33B587A2831D2DD1A35311883232 /* klStringUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = klStringUtilities.modulemap; sourceTree = "<group>"; };
 		E8EADC4E9434FFBFD15B712B246BD8D4 /* Pods-klStringUtilities-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klStringUtilities-Demo.modulemap"; sourceTree = "<group>"; };
+		F5DF798984713E3502928DAD99C9F7DC /* klStringUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "klStringUtilities-dummy.m"; sourceTree = "<group>"; };
 		FA2E4924F269BC3F22A7F4F988AFA229 /* Pods-klStringUtilities-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klStringUtilities-Demo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,12 +61,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C150FE389849CB55DFFFCA5D1A199E75 /* Frameworks */ = {
+		98DD08FA081151D5C6E86595E0C3041C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96B7BC255E4D032694521E51D1765A0 /* Foundation.framework in Frameworks */,
-				F29D8EFCF4A55674B2716E10B77AC9AC /* UIKit.framework in Frameworks */,
+				9B57C21ECBC8FC92542432CBCFCB1410 /* Foundation.framework in Frameworks */,
+				054618D9AA75E0A15AFDE9FDB8067D57 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,35 +98,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6DBD8D9AACCE26D72AE96AB101FD63D0 /* klStringUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7CE85CF7E3C05205096F9DC7EA8FC472 /* StringUtilities.swift */,
+				7E1607120D95B66F58BFB938B8AE9BEF /* Support Files */,
+			);
+			name = klStringUtilities;
+			path = klStringUtilities;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B03FFA0B384ABFB7AEE4463B3248CE6F /* Pods */,
+				AEA4C36586BA391475B1730AAC9A489C /* Pods */,
 				D6538CE82CF9436F661AED708AE99F5B /* Products */,
 				62E3CD2E9CE34680B8CB0CB83F41D878 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EB37D37CEF46BE35AD6BF040D6CF333 /* Support Files */ = {
+		7E1607120D95B66F58BFB938B8AE9BEF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B80717B5480961964667F13EFD04CDB /* Info.plist */,
-				E7AAD2CB88045A061D3FB2BC91BFCEC3 /* klStringUtilities.modulemap */,
-				AF3C61EA3FBC3C2BB8D64DB443A94E3C /* klStringUtilities.xcconfig */,
-				3DF20A4EA88ACD543DFA5CDCCC70B126 /* klStringUtilities-dummy.m */,
-				A89B8C4B0F9B4CD5B975196149584CB5 /* klStringUtilities-prefix.pch */,
-				3374F8EFF83343B70CDD5F8A30CE6E02 /* klStringUtilities-umbrella.h */,
+				0A5A72E2D12A94C2BCBB291AE545EFBF /* Info.plist */,
+				DCDA33B587A2831D2DD1A35311883232 /* klStringUtilities.modulemap */,
+				32DEBD0FF09BA117682BD24C0FB6B719 /* klStringUtilities.xcconfig */,
+				F5DF798984713E3502928DAD99C9F7DC /* klStringUtilities-dummy.m */,
+				938E0D8CB8CC6CD6D68569AEAFAE4885 /* klStringUtilities-prefix.pch */,
+				4DEB4924D32A0B28DA68AE61FD1BF7AB /* klStringUtilities-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/klStringUtilities";
 			sourceTree = "<group>";
 		};
-		B03FFA0B384ABFB7AEE4463B3248CE6F /* Pods */ = {
+		AEA4C36586BA391475B1730AAC9A489C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBD6E996D9288365CCC984BF84D6D697 /* klStringUtilities */,
+				6DBD8D9AACCE26D72AE96AB101FD63D0 /* klStringUtilities */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -160,20 +168,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBD6E996D9288365CCC984BF84D6D697 /* klStringUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				7D56BEBE3CA5B4E9392AB7B4BDC35291 /* klStringUtilities.h */,
-				BD07F143549A16EACFEAC1E7AD153C38 /* StringUtilities.swift */,
-				7EB37D37CEF46BE35AD6BF040D6CF333 /* Support Files */,
-			);
-			name = klStringUtilities;
-			path = klStringUtilities;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		778A6FC6944F1EBC133E8903277FCE55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25AF83002CDF457E7317499E2DE6495 /* klStringUtilities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC9569A79D3BA531F17EBA4CD6EF2E41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,35 +187,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E067EF80AA358D0CE06386297745D799 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4892F6887AD9B9F9555FD3C81BB81DAB /* klStringUtilities-umbrella.h in Headers */,
-				0516624BB9DDECD2033494F5FB03FF7D /* klStringUtilities.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D8AD63E57D77398E0E013C44EA3267E /* klStringUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC35C5154212F5BBA735A5DBAE344A3F /* Build configuration list for PBXNativeTarget "klStringUtilities" */;
-			buildPhases = (
-				6F50BDB7C46721FEA447A5CD9AFA1C6F /* Sources */,
-				C150FE389849CB55DFFFCA5D1A199E75 /* Frameworks */,
-				E067EF80AA358D0CE06386297745D799 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = klStringUtilities;
-			productName = klStringUtilities;
-			productReference = 93E52FFAD3A32F1309B34713D493E885 /* klStringUtilities.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		761C6926B6FAC7A9F48ABE8FB8EB504E /* Pods-klStringUtilities-Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C81FDC974D626184DEE7CD59D9C7C14E /* Build configuration list for PBXNativeTarget "Pods-klStringUtilities-Demo" */;
@@ -227,6 +206,23 @@
 			name = "Pods-klStringUtilities-Demo";
 			productName = "Pods-klStringUtilities-Demo";
 			productReference = 47098C4A50C3C6D8B6A1EE29EE226477 /* Pods_klStringUtilities_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		790236834D8E45E57645410F81A32F18 /* klStringUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBCA3F65ABE3FA18B1A1D6DAE873AA3 /* Build configuration list for PBXNativeTarget "klStringUtilities" */;
+			buildPhases = (
+				DD327BF1CA4D2462569E87357E8BB0C2 /* Sources */,
+				98DD08FA081151D5C6E86595E0C3041C /* Frameworks */,
+				778A6FC6944F1EBC133E8903277FCE55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klStringUtilities;
+			productName = klStringUtilities;
+			productReference = 93E52FFAD3A32F1309B34713D493E885 /* klStringUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -250,27 +246,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D8AD63E57D77398E0E013C44EA3267E /* klStringUtilities */,
+				790236834D8E45E57645410F81A32F18 /* klStringUtilities */,
 				761C6926B6FAC7A9F48ABE8FB8EB504E /* Pods-klStringUtilities-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F50BDB7C46721FEA447A5CD9AFA1C6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BFB8C024C3F1714D2A54B44BF1D76A1 /* klStringUtilities-dummy.m in Sources */,
-				5F0E5C9C271C0534B31EDAEB1D5A2B14 /* StringUtilities.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9909C46FEBBFBBF0885AEE2ABBF3A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C4519B2B08D3E71961E779EE48C5353 /* Pods-klStringUtilities-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD327BF1CA4D2462569E87357E8BB0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6FC0C45EBC9C60C07F94FE98F3C4F5 /* klStringUtilities-dummy.m in Sources */,
+				7808D0290AD58B81301489310ACC2149 /* StringUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,47 +276,12 @@
 		BE576D05A5F580086B50FD3324B5EF37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = klStringUtilities;
-			target = 5D8AD63E57D77398E0E013C44EA3267E /* klStringUtilities */;
+			target = 790236834D8E45E57645410F81A32F18 /* klStringUtilities */;
 			targetProxy = 786C4FA7DB433B85A5A53E20124621B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		54080B0522077A5D7251FA36B210FE68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3C61EA3FBC3C2BB8D64DB443A94E3C /* klStringUtilities.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/klStringUtilities/klStringUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/klStringUtilities/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/klStringUtilities/klStringUtilities.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = klStringUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		643C76AA582046977B7877822ED7A258 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -369,16 +330,16 @@
 			};
 			name = Debug;
 		};
-		7D5FA461870CBAEC0183564C0721CC1D /* Release */ = {
+		72BB01FE3850C1F84F04108B87398F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3C61EA3FBC3C2BB8D64DB443A94E3C /* klStringUtilities.xcconfig */;
+			baseConfigurationReference = 32DEBD0FF09BA117682BD24C0FB6B719 /* klStringUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -391,17 +352,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/klStringUtilities/klStringUtilities.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = klStringUtilities;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B7BB82E416D63619971E6124608EB5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -524,6 +486,40 @@
 			};
 			name = Debug;
 		};
+		CFA5DE119F81E61B955B5BEF3FF4B7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DEBD0FF09BA117682BD24C0FB6B719 /* klStringUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/klStringUtilities/klStringUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/klStringUtilities/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/klStringUtilities/klStringUtilities.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = klStringUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -536,20 +532,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		ABBCA3F65ABE3FA18B1A1D6DAE873AA3 /* Build configuration list for PBXNativeTarget "klStringUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BB01FE3850C1F84F04108B87398F1D /* Debug */,
+				CFA5DE119F81E61B955B5BEF3FF4B7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C81FDC974D626184DEE7CD59D9C7C14E /* Build configuration list for PBXNativeTarget "Pods-klStringUtilities-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF5B7B3814790F849F2954E561BAF5BC /* Debug */,
 				B7BB82E416D63619971E6124608EB5B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC35C5154212F5BBA735A5DBAE344A3F /* Build configuration list for PBXNativeTarget "klStringUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54080B0522077A5D7251FA36B210FE68 /* Debug */,
-				7D5FA461870CBAEC0183564C0721CC1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "klStringUtilities.h"
 
 FOUNDATION_EXPORT double klStringUtilitiesVersionNumber;
 FOUNDATION_EXPORT const unsigned char klStringUtilitiesVersionString[];

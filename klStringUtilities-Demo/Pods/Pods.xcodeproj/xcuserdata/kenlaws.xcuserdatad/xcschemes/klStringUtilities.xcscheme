@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5D8AD63E57D77398E0E013C44EA3267E'
+               BlueprintIdentifier = '790236834D8E45E57645410F81A32F18'
                BlueprintName = 'klStringUtilities'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'klStringUtilities.framework'>
