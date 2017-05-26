@@ -71,9 +71,13 @@ public extension String {
 			if fromRng == nil {
 				if charCount == nsRange.location {
 					fromRng = r1
-
+					if nsRange.length == 0 {
+						toRng = r1
+						stop = true
+					}
+				} else {
+					charCount += 1
 				}
-				charCount += 1
 			} else if toRng == nil {
 				if charCount == nsRange.location + nsRange.length {
 					toRng = r1
