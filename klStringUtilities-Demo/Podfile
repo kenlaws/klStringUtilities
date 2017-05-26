@@ -2,5 +2,5 @@ platform :ios, '10.0'
 
 target 'klStringUtilities-Demo' do
 	use_frameworks!
-	pod "klStringUtilities", :git => 'https://github.com/kenlaws/klStringUtilities.git'
+	pod "klStringUtilities"
 end
