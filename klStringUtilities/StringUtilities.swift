@@ -67,7 +67,7 @@ public extension String {
 		var charCount = 0
 		var fromRng:Range<String.Index>?
 		var toRng:Range<String.Index>?
-		str.enumerateSubstrings(in: str.startIndex ..< str.endIndex, options: .byComposedCharacterSequences) { (_, r1, _, stop) in
+		self.enumerateSubstrings(in: self.startIndex ..< self.endIndex, options: .byComposedCharacterSequences) { (_, r1, _, stop) in
 			if fromRng == nil {
 				if charCount == nsRange.location {
 					fromRng = r1
