@@ -35,7 +35,12 @@ public class StringUtilities {
 public extension String {
 	
 	var len: Int {
-		return self.characters.count
+		var count = 0
+		self.enumerateSubstrings(in: self.startIndex ..< self.endIndex, options: .byComposedCharacterSequences) { (_, _, _, _) in
+			count += 1
+		}
+
+		return count
 	}
 
 
@@ -56,61 +61,37 @@ public extension String {
 		}
 		return formatted
 	}
+
 	
-	
-	var formatAsUSPhone: String {
-		var filtered = (self.characters.filter{["+","0","1","2","3","4","5","6","7","8","9"].contains($0)})
-		if filtered.count < 6 {
-			//too short
-			return self
-		}
-
-		if filtered[0] == "+" && filtered[1] != "1" {
-			//country code, not US
-			return self
-		}
-
-		if String(filtered[0...1]) == "+1" {
-			filtered.removeFirst(2)
-		}
-
-		if filtered.count < 10 {
-			//we somehow failed
-			return self
-		}
-
-		var result = "(" + String(filtered[0...2]) + ") "
-		result += String(filtered[3...5])
-		result += "-" + String(filtered[6...9])
-
-		return result
-	}
-	
-	
-	static func formattedInt(from:Double) -> String {
-		return StringUtilities.sharedInstance.numberFormatter.string(from: from as NSNumber)!
-	}
-	
-	
-	static func currency(from:Double) -> String {
-		if from.truncatingRemainder(dividingBy: 1) == 0 {
-			return StringUtilities.sharedInstance.roundCurrencyFormatter.string(from: from as NSNumber)!
-		} else {
-			return StringUtilities.sharedInstance.specificCurrencyFormatter.string(from: from as NSNumber)!
-		}
-	}
-
-
 	func rangeFromNSRange(nsRange : NSRange) -> Range<String.Index>? {
-		guard
-			let from16 = utf16.index(utf16.startIndex, offsetBy: nsRange.location, limitedBy: utf16.endIndex),
-			let to16 = utf16.index(utf16.startIndex, offsetBy: nsRange.location + nsRange.length, limitedBy: utf16.endIndex),
-			let from = from16.samePosition(in: self),
-			let to = to16.samePosition(in: self)
-			else { return nil }
-		return from ..< to
+		var charCount = 0
+		var fromRng:Range<String.Index>?
+		var toRng:Range<String.Index>?
+		str.enumerateSubstrings(in: str.startIndex ..< str.endIndex, options: .byComposedCharacterSequences) { (_, r1, _, stop) in
+			if fromRng == nil {
+				if charCount == nsRange.location {
+					fromRng = r1
+
+				}
+				charCount += 1
+			} else if toRng == nil {
+				if charCount == nsRange.location + nsRange.length {
+					toRng = r1
+				}
+				charCount += 1
+			} else {
+				stop = true
+			}
+		}
+
+		guard let _ = fromRng, let _ = toRng else {
+			return nil
+		}
+
+		return fromRng!.lowerBound ..< toRng!.lowerBound
 	}
-	
+
+
 
 	func containsRegEx(regExString:String, ci:Bool = true) -> Bool {
 		var options:NSString.CompareOptions = [.regularExpression]
@@ -142,6 +123,28 @@ public extension String {
 	}
 
 
+}
+
+
+public extension ExpressibleByIntegerLiteral {
+	var intString:String {
+		let rawStr = NumberFormatter.localizedString(from: self as! NSNumber, number: .none)
+		guard let rawInt = StringUtilities.sharedInstance.numberFormatter.number(from: rawStr) else {
+			return rawStr
+		}
+		return StringUtilities.sharedInstance.numberFormatter.string(from: rawInt)!
+	}
+}
+
+
+public extension BinaryFloatingPoint {
+	var currencyString:String {
+		if self.truncatingRemainder(dividingBy: 1) == 0 {
+			return StringUtilities.sharedInstance.roundCurrencyFormatter.string(from: self as! NSNumber)!
+		} else {
+			return StringUtilities.sharedInstance.specificCurrencyFormatter.string(from: self as! NSNumber)!
+		}
+	}
 }
 
 
