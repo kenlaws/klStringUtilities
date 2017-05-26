@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  klStringUtilities-Demo
+
+  Created by Ken Laws on 5/25/17.
+  Copyright © 2017 Ken Laws. All rights reserved.
+*/
+
+"Simple Example" = "This is a simple example of a localizable string.";
+
+"Item %1, item %2" = "In this language, item %1 will happen first, followed by item %2.";

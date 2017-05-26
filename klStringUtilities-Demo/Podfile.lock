@@ -1,0 +1,21 @@
+PODS:
+  - klStringUtilities (1.0.1-a.3)
+
+DEPENDENCIES:
+  - klStringUtilities (from `https://github.com/kenlaws/klStringUtilities.git`)
+
+EXTERNAL SOURCES:
+  klStringUtilities:
+    :git: https://github.com/kenlaws/klStringUtilities.git
+
+CHECKOUT OPTIONS:
+  klStringUtilities:
+    :commit: c5a81ac845eeffbfeaa7031e165110ff2da426bc
+    :git: https://github.com/kenlaws/klStringUtilities.git
+
+SPEC CHECKSUMS:
+  klStringUtilities: 61fcc33c47999a1ea26150def78ea4cd919dc6d7
+
+PODFILE CHECKSUM: 9cd08526d372f176eb0d9cee3e515dc08e3a35c5
+
+COCOAPODS: 1.2.1
