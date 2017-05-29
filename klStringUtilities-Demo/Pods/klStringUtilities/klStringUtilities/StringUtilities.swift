@@ -25,7 +25,7 @@ public class StringUtilities {
 		roundCurrencyFormatter.maximumFractionDigits = 0
 		roundCurrencyFormatter.locale = NSLocale.current
 
-		numberFormatter.numberStyle = .decimal
+		numberFormatter.numberStyle = .none
 		numberFormatter.usesGroupingSeparator = true
 	}
 
@@ -99,43 +99,6 @@ public extension String {
 	}
 
 
-	/// Convert an NSRange taking into account multi-glyph characters
-	///
-	/// - Parameter nsRange: the NSRange to convert
-	/// - Returns: the Swift range, always on the border of a complete complex character. Note that it will return nil if the range is outside the bounds of the human range of characters
-	func humanRangeFromNSRange(nsRange : NSRange) -> Range<String.Index>? {
-		var charCount = 0
-		var fromRng:Range<String.Index>?
-		var toRng:Range<String.Index>?
-		self.enumerateSubstrings(in: self.startIndex ..< self.endIndex, options: .byComposedCharacterSequences) { (_, r1, _, stop) in
-			if fromRng == nil {
-				if charCount == nsRange.location {
-					fromRng = r1
-					if nsRange.length == 0 {
-						toRng = r1
-						stop = true
-					}
-				} else {
-					charCount += 1
-				}
-			} else if toRng == nil {
-				if charCount == nsRange.location + nsRange.length {
-					toRng = r1
-				}
-				charCount += 1
-			} else {
-				stop = true
-			}
-		}
-
-		guard let _ = fromRng, let _ = toRng else {
-			return nil
-		}
-
-		return fromRng!.lowerBound ..< toRng!.lowerBound
-	}
-
-
 	/// Shortcut to find if a String contains a particular RegEx value.
 	///
 	/// - Parameters:
@@ -147,17 +110,18 @@ public extension String {
 		if ci {
 			options = [options, NSString.CompareOptions.caseInsensitive]
 		}
-		guard let _ = self.range(of: regExString, options: options) else {
+		if let _ = self.range(of: regExString, options: options) {
+			return true
+		} else {
 			return false
 		}
-		return true
 	}
 
 
 	/// Returns an array of Strings with RegEx capture groups found in the receiver.
 	///
 	/// - Parameter regExString: The search string. It's best to include at least one capture group
-	/// - Returns: An array of Strings with the found capture groups, or nil of the search string was not found
+	/// - Returns: An array of Strings, starting with the complete match, followed by the found capture groups, or an empty array if no match was found, or nil if the regular expression failed to parse
 	func withMatchingPatterns(regExString:String) -> [String]? {
 		do {
 			let regEx = try NSRegularExpression(pattern: regExString, options: .useUnicodeWordBoundaries)

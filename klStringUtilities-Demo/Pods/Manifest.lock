@@ -1,11 +1,11 @@
 PODS:
-  - klStringUtilities (1.0.1)
+  - klStringUtilities (1.0.2)
 
 DEPENDENCIES:
   - klStringUtilities
 
 SPEC CHECKSUMS:
-  klStringUtilities: 161eee1ae619d9cba9100624d89c1dab7e4f8dd3
+  klStringUtilities: 3276c50d3d409260d770f83e6c44596ca7c8f37f
 
 PODFILE CHECKSUM: 11535cc4df3823ba99e8764344da784ec2d49907
 
