@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>klStringUtilities-TVDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>klStringUtilities-iOSTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<key>klStringUtilities-tvOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>939D035C1EDA65CC00FABB4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>939D036E1EDBE1C400FABB4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>939D03801EDBE4DF00FABB4F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

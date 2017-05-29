@@ -1,0 +1,6 @@
+framework module klStringUtilities {
+  umbrella header "klStringUtilities-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>klStringUtilities.xcscheme</key>
+		<key>Pods-klStringUtilities-tvOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>klStringUtilities-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>klStringUtilities-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>761C6926B6FAC7A9F48ABE8FB8EB504E</key>
+		<key>502E2D403E3AF457A2D7359C27024297</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>790236834D8E45E57645410F81A32F18</key>
+		<key>7E2E710FF743D77D79C2E8F6ADC5A857</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81D04EEE9BC522DCAB835F379B1AE1C7</key>
+		<key>8E363403BF80CBB8950D33C6728BA688</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1B3E11B2A4C2E684A65C0671A5DABFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A64F6F3CEA5E39799838F4E744D9C928</key>
 		<dict>
 			<key>primary</key>
 			<true/>

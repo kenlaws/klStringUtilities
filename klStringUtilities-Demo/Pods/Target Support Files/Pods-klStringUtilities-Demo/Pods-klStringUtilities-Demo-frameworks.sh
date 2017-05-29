@@ -89,10 +89,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/klStringUtilities/klStringUtilities.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/klStringUtilities-iOS/klStringUtilities.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/klStringUtilities/klStringUtilities.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/klStringUtilities-iOS/klStringUtilities.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

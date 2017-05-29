@@ -1,5 +1,5 @@
 framework module klStringUtilities {
-  umbrella header "klStringUtilities-umbrella.h"
+  umbrella header "klStringUtilities-tvOS-umbrella.h"
 
   export *
   module * { export * }

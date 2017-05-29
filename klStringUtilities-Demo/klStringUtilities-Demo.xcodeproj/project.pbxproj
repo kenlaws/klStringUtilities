@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		047F5885B94D0F47C446660D /* Pods_klStringUtilities_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4A021F41A86F4DB2CC3FE /* Pods_klStringUtilities_iOSTests.framework */; };
 		0C66A699F21F4D76ED04476A /* Pods_klStringUtilities_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAB2E40FC9A0D6C307801D2 /* Pods_klStringUtilities_Demo.framework */; };
+		1698D60F4F2D9D89759BB592 /* Pods_klStringUtilities_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60F64905C00EA5E846564A /* Pods_klStringUtilities_tvOSTests.framework */; };
 		93071FA41ED749B3008009C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93071FA31ED749B3008009C7 /* AppDelegate.swift */; };
 		93071FA61ED749B3008009C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93071FA51ED749B3008009C7 /* ViewController.swift */; };
 		93071FA91ED749B3008009C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93071FA71ED749B3008009C7 /* Main.storyboard */; };
@@ -17,6 +18,15 @@
 		939D03601EDA65CD00FABB4F /* klStringUtilities_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D035F1EDA65CD00FABB4F /* klStringUtilities_iOSTests.swift */; };
 		939D03671EDBB99B00FABB4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939D03661EDBB99B00FABB4F /* Localizable.strings */; };
 		939D03681EDBB99B00FABB4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939D03661EDBB99B00FABB4F /* Localizable.strings */; };
+		939D03721EDBE1C400FABB4F /* klStringUtilities_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D03711EDBE1C400FABB4F /* klStringUtilities_tvOSTests.swift */; };
+		939D03771EDBE1DD00FABB4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939D03661EDBB99B00FABB4F /* Localizable.strings */; };
+		939D03781EDBE2EF00FABB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93071FA31ED749B3008009C7 /* AppDelegate.swift */; };
+		939D037A1EDBE2FE00FABB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93071FA71ED749B3008009C7 /* Main.storyboard */; };
+		939D03841EDBE4DF00FABB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D03831EDBE4DF00FABB4F /* AppDelegate.swift */; };
+		939D03861EDBE4DF00FABB4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939D03851EDBE4DF00FABB4F /* ViewController.swift */; };
+		939D03891EDBE4DF00FABB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D03871EDBE4DF00FABB4F /* Main.storyboard */; };
+		939D038B1EDBE4DF00FABB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939D038A1EDBE4DF00FABB4F /* Assets.xcassets */; };
+		93F4B1721EDBED8400015419 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939D03661EDBB99B00FABB4F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +37,26 @@
 			remoteGlobalIDString = 93071F9F1ED749B3008009C7;
 			remoteInfo = "klStringUtilities-Demo";
 		};
+		939D037B1EDBE33400FABB4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93071F981ED749B3008009C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93071F9F1ED749B3008009C7;
+			remoteInfo = "klStringUtilities-Demo";
+		};
+		93F4B1701EDBE59800015419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93071F981ED749B3008009C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939D03801EDBE4DF00FABB4F;
+			remoteInfo = "klStringUtilities-TVDemo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		074A039EAD01A1997EB53813 /* Pods-klStringUtilities-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-iOSTests/Pods-klStringUtilities-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		79A4A021F41A86F4DB2CC3FE /* Pods_klStringUtilities_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF20917ED22F4CE2F5EEAB /* Pods-klStringUtilities-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-tvOSTests/Pods-klStringUtilities-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CF8BC6B2174BA9BA1296EDE /* Pods-klStringUtilities-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-Demo/Pods-klStringUtilities-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		93071FA01ED749B3008009C7 /* klStringUtilities-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "klStringUtilities-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93071FA31ED749B3008009C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +69,20 @@
 		939D035F1EDA65CD00FABB4F /* klStringUtilities_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klStringUtilities_iOSTests.swift; sourceTree = "<group>"; };
 		939D03611EDA65CD00FABB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		939D03661EDBB99B00FABB4F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		939D036F1EDBE1C400FABB4F /* klStringUtilities-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "klStringUtilities-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939D03711EDBE1C400FABB4F /* klStringUtilities_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klStringUtilities_tvOSTests.swift; sourceTree = "<group>"; };
+		939D03731EDBE1C400FABB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939D03811EDBE4DF00FABB4F /* klStringUtilities-TVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "klStringUtilities-TVDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939D03831EDBE4DF00FABB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		939D03851EDBE4DF00FABB4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		939D03881EDBE4DF00FABB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		939D038A1EDBE4DF00FABB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939D038C1EDBE4DF00FABB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A895431CE028E602677D8A /* Pods-klStringUtilities-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-iOSTests/Pods-klStringUtilities-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		CDAB2E40FC9A0D6C307801D2 /* Pods_klStringUtilities_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C610B6B371870446B1BA48 /* Pods-klStringUtilities-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-Demo/Pods-klStringUtilities-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F06296F64D4ACBE2C97C510C /* Pods-klStringUtilities-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klStringUtilities-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klStringUtilities-tvOSTests/Pods-klStringUtilities-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE60F64905C00EA5E846564A /* Pods_klStringUtilities_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +102,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		939D036C1EDBE1C400FABB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1698D60F4F2D9D89759BB592 /* Pods_klStringUtilities_tvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D037E1EDBE4DF00FABB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +125,7 @@
 			children = (
 				CDAB2E40FC9A0D6C307801D2 /* Pods_klStringUtilities_Demo.framework */,
 				79A4A021F41A86F4DB2CC3FE /* Pods_klStringUtilities_iOSTests.framework */,
+				FE60F64905C00EA5E846564A /* Pods_klStringUtilities_tvOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,6 +137,8 @@
 				E3C610B6B371870446B1BA48 /* Pods-klStringUtilities-Demo.release.xcconfig */,
 				074A039EAD01A1997EB53813 /* Pods-klStringUtilities-iOSTests.debug.xcconfig */,
 				A0A895431CE028E602677D8A /* Pods-klStringUtilities-iOSTests.release.xcconfig */,
+				84EF20917ED22F4CE2F5EEAB /* Pods-klStringUtilities-tvOSTests.debug.xcconfig */,
+				F06296F64D4ACBE2C97C510C /* Pods-klStringUtilities-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -94,6 +148,8 @@
 			children = (
 				93071FA21ED749B3008009C7 /* klStringUtilities-Demo */,
 				939D035E1EDA65CD00FABB4F /* klStringUtilities-iOSTests */,
+				939D03701EDBE1C400FABB4F /* klStringUtilities-tvOSTests */,
+				939D03821EDBE4DF00FABB4F /* klStringUtilities-TVDemo */,
 				93071FA11ED749B3008009C7 /* Products */,
 				74C75BC2AEF8DE650F32FADE /* Pods */,
 				0E5E422BCF839C93D2868312 /* Frameworks */,
@@ -105,6 +161,8 @@
 			children = (
 				93071FA01ED749B3008009C7 /* klStringUtilities-Demo.app */,
 				939D035D1EDA65CC00FABB4F /* klStringUtilities-iOSTests.xctest */,
+				939D036F1EDBE1C400FABB4F /* klStringUtilities-tvOSTests.xctest */,
+				939D03811EDBE4DF00FABB4F /* klStringUtilities-TVDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +188,27 @@
 				939D03611EDA65CD00FABB4F /* Info.plist */,
 			);
 			path = "klStringUtilities-iOSTests";
+			sourceTree = "<group>";
+		};
+		939D03701EDBE1C400FABB4F /* klStringUtilities-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				939D03711EDBE1C400FABB4F /* klStringUtilities_tvOSTests.swift */,
+				939D03731EDBE1C400FABB4F /* Info.plist */,
+			);
+			path = "klStringUtilities-tvOSTests";
+			sourceTree = "<group>";
+		};
+		939D03821EDBE4DF00FABB4F /* klStringUtilities-TVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				939D03831EDBE4DF00FABB4F /* AppDelegate.swift */,
+				939D03851EDBE4DF00FABB4F /* ViewController.swift */,
+				939D03871EDBE4DF00FABB4F /* Main.storyboard */,
+				939D038A1EDBE4DF00FABB4F /* Assets.xcassets */,
+				939D038C1EDBE4DF00FABB4F /* Info.plist */,
+			);
+			path = "klStringUtilities-TVDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +255,45 @@
 			productReference = 939D035D1EDA65CC00FABB4F /* klStringUtilities-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		939D036E1EDBE1C400FABB4F /* klStringUtilities-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939D03761EDBE1C400FABB4F /* Build configuration list for PBXNativeTarget "klStringUtilities-tvOSTests" */;
+			buildPhases = (
+				C26F9076A94A137EE2188B61 /* [CP] Check Pods Manifest.lock */,
+				939D036B1EDBE1C400FABB4F /* Sources */,
+				939D036C1EDBE1C400FABB4F /* Frameworks */,
+				939D036D1EDBE1C400FABB4F /* Resources */,
+				2FA8DC7C837438F2ABDB0F4C /* [CP] Embed Pods Frameworks */,
+				FE2AA3CD19A5FAC9C66237C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939D037C1EDBE33400FABB4F /* PBXTargetDependency */,
+				93F4B1711EDBE59800015419 /* PBXTargetDependency */,
+			);
+			name = "klStringUtilities-tvOSTests";
+			productName = "klStringUtilities-tvOSTests";
+			productReference = 939D036F1EDBE1C400FABB4F /* klStringUtilities-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		939D03801EDBE4DF00FABB4F /* klStringUtilities-TVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939D038D1EDBE4DF00FABB4F /* Build configuration list for PBXNativeTarget "klStringUtilities-TVDemo" */;
+			buildPhases = (
+				939D037D1EDBE4DF00FABB4F /* Sources */,
+				939D037E1EDBE4DF00FABB4F /* Frameworks */,
+				939D037F1EDBE4DF00FABB4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "klStringUtilities-TVDemo";
+			productName = "klStringUtilities-TVDemo";
+			productReference = 939D03811EDBE4DF00FABB4F /* klStringUtilities-TVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +313,15 @@
 						ProvisioningStyle = Manual;
 						TestTargetID = 93071F9F1ED749B3008009C7;
 					};
+					939D036E1EDBE1C400FABB4F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+						TestTargetID = 939D03801EDBE4DF00FABB4F;
+					};
+					939D03801EDBE4DF00FABB4F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 93071F9B1ED749B3008009C7 /* Build configuration list for PBXProject "klStringUtilities-Demo" */;
@@ -212,6 +339,8 @@
 			targets = (
 				93071F9F1ED749B3008009C7 /* klStringUtilities-Demo */,
 				939D035C1EDA65CC00FABB4F /* klStringUtilities-iOSTests */,
+				939D036E1EDBE1C400FABB4F /* klStringUtilities-tvOSTests */,
+				939D03801EDBE4DF00FABB4F /* klStringUtilities-TVDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +365,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		939D036D1EDBE1C400FABB4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D03771EDBE1DD00FABB4F /* Localizable.strings in Resources */,
+				939D037A1EDBE2FE00FABB4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D037F1EDBE4DF00FABB4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D038B1EDBE4DF00FABB4F /* Assets.xcassets in Resources */,
+				93F4B1721EDBED8400015419 /* Localizable.strings in Resources */,
+				939D03891EDBE4DF00FABB4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -252,6 +400,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klStringUtilities-Demo/Pods-klStringUtilities-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA8DC7C837438F2ABDB0F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klStringUtilities-tvOSTests/Pods-klStringUtilities-tvOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B3543FFF286A4FDFDB6AB16 /* [CP] Embed Pods Frameworks */ = {
@@ -299,6 +462,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C26F9076A94A137EE2188B61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C89FB2513C6EE8B3073E61CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +507,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klStringUtilities-Demo/Pods-klStringUtilities-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FE2AA3CD19A5FAC9C66237C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klStringUtilities-tvOSTests/Pods-klStringUtilities-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,6 +542,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		939D036B1EDBE1C400FABB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D03781EDBE2EF00FABB4F /* AppDelegate.swift in Sources */,
+				939D03721EDBE1C400FABB4F /* klStringUtilities_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D037D1EDBE4DF00FABB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D03861EDBE4DF00FABB4F /* ViewController.swift in Sources */,
+				939D03841EDBE4DF00FABB4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -356,6 +567,16 @@
 			isa = PBXTargetDependency;
 			target = 93071F9F1ED749B3008009C7 /* klStringUtilities-Demo */;
 			targetProxy = 939D03691EDBB9CE00FABB4F /* PBXContainerItemProxy */;
+		};
+		939D037C1EDBE33400FABB4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93071F9F1ED749B3008009C7 /* klStringUtilities-Demo */;
+			targetProxy = 939D037B1EDBE33400FABB4F /* PBXContainerItemProxy */;
+		};
+		93F4B1711EDBE59800015419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939D03801EDBE4DF00FABB4F /* klStringUtilities-TVDemo */;
+			targetProxy = 93F4B1701EDBE59800015419 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -374,6 +595,14 @@
 				93071FAD1ED749B3008009C7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		939D03871EDBE4DF00FABB4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939D03881EDBE4DF00FABB4F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -542,6 +771,84 @@
 			};
 			name = Release;
 		};
+		939D03741EDBE1C400FABB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EF20917ED22F4CE2F5EEAB /* Pods-klStringUtilities-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "klStringUtilities-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dela.klStringUtilities-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klStringUtilities-TVDemo.app/klStringUtilities-TVDemo";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		939D03751EDBE1C400FABB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06296F64D4ACBE2C97C510C /* Pods-klStringUtilities-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "klStringUtilities-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dela.klStringUtilities-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klStringUtilities-TVDemo.app/klStringUtilities-TVDemo";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		939D038E1EDBE4DF00FABB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "klStringUtilities-TVDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dela.klStringUtilities-TVDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		939D038F1EDBE4DF00FABB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "klStringUtilities-TVDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dela.klStringUtilities-TVDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,6 +875,24 @@
 			buildConfigurations = (
 				939D03631EDA65CD00FABB4F /* Debug */,
 				939D03641EDA65CD00FABB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939D03761EDBE1C400FABB4F /* Build configuration list for PBXNativeTarget "klStringUtilities-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939D03741EDBE1C400FABB4F /* Debug */,
+				939D03751EDBE1C400FABB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939D038D1EDBE4DF00FABB4F /* Build configuration list for PBXNativeTarget "klStringUtilities-TVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939D038E1EDBE4DF00FABB4F /* Debug */,
+				939D038F1EDBE4DF00FABB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
