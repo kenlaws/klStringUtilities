@@ -25,7 +25,7 @@ public class StringUtilities {
 		roundCurrencyFormatter.maximumFractionDigits = 0
 		roundCurrencyFormatter.locale = NSLocale.current
 
-		numberFormatter.numberStyle = .none
+		numberFormatter.numberStyle = .decimal
 		numberFormatter.usesGroupingSeparator = true
 	}
 
@@ -147,10 +147,10 @@ public extension String {
 		if ci {
 			options = [options, NSString.CompareOptions.caseInsensitive]
 		}
-		guard let _ = self.range(of: regExString, options: .regularExpression) else {
-			return true
+		guard let _ = self.range(of: regExString, options: options) else {
+			return false
 		}
-		return false
+		return true
 	}
 
 
@@ -159,20 +159,20 @@ public extension String {
 	/// - Parameter regExString: The search string. It's best to include at least one capture group
 	/// - Returns: An array of Strings with the found capture groups, or nil of the search string was not found
 	func withMatchingPatterns(regExString:String) -> [String]? {
-		let regEx = try! NSRegularExpression(pattern: regExString, options: .useUnicodeWordBoundaries)
-		var results:[String] = []
-		for item in regEx.matches(in: self, options: .withTransparentBounds, range: NSMakeRange(0, self.len)) {
-			if NSEqualRanges(item.range, NSMakeRange(NSNotFound, 0)) {
-				return nil
-			}
-			for i in 1..<item.numberOfRanges {
-				if let rng = self.rangeFromNSRange(nsRange: item.rangeAt(i))  {
-					results += [self.substring(with: rng)]
+		do {
+			let regEx = try NSRegularExpression(pattern: regExString, options: .useUnicodeWordBoundaries)
+			var results:[String] = []
+			for item in regEx.matches(in: self, options: .withTransparentBounds, range: NSMakeRange(0, self.len)) {
+				for i in 0..<item.numberOfRanges {
+					if let rng = self.rangeFromNSRange(nsRange: item.rangeAt(i))  {
+						results += [self.substring(with: rng)]
+					}
 				}
 			}
+			return results
+		} catch {
+			return nil
 		}
-
-		return results
 	}
 
 }

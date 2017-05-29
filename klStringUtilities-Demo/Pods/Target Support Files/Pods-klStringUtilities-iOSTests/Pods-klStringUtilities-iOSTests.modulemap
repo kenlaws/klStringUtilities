@@ -1,0 +1,6 @@
+framework module Pods_klStringUtilities_iOSTests {
+  umbrella header "Pods-klStringUtilities-iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

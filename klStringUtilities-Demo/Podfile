@@ -4,3 +4,8 @@ target 'klStringUtilities-Demo' do
 	use_frameworks!
 	pod "klStringUtilities"
 end
+
+target 'klStringUtilities-iOSTests' do
+	use_frameworks!
+	pod "klStringUtilities"
+end

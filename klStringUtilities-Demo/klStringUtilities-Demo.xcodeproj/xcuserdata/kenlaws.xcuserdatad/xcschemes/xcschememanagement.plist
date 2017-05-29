@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>klStringUtilities-iOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>93071F9F1ED749B3008009C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>939D035C1EDA65CC00FABB4F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

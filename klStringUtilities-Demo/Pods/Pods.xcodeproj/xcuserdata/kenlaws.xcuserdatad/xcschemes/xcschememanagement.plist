@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-klStringUtilities-iOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>klStringUtilities.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>790236834D8E45E57645410F81A32F18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81D04EEE9BC522DCAB835F379B1AE1C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
