@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "klStringUtilities"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A small set of Swift string utilities and shortcuts."
   s.description  = <<-DESC
 	This is a small set of Swift 3.0 based string utilities providing some simple
@@ -23,13 +23,11 @@ Pod::Spec.new do |s|
   s.author             = { "Ken Laws" => "pods@kenlaws.com" }
   s.social_media_url   = "https://twitter.com/kenlaws"
 
-  s.platform     = :ios, "10.0"
-
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = "10.0"
+  s.osx.deployment_target = "10.12"
+  s.watchos.deployment_target = "3.2"
+  s.tvos.deployment_target = "10.2"
 
   s.source       = { :git => "https://github.com/kenlaws/klStringUtilities.git", :tag => s.version.to_s }
 
