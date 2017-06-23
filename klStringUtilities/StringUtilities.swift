@@ -10,11 +10,11 @@ import UIKit
 
 
 public class StringUtilities {
-	static let sharedInstance = StringUtilities()
+	public static let sharedInstance = StringUtilities()
 
-	let roundCurrencyFormatter = NumberFormatter()
-	let specificCurrencyFormatter = NumberFormatter()
-	let numberFormatter = NumberFormatter()
+	public let roundCurrencyFormatter = NumberFormatter()
+	public let specificCurrencyFormatter = NumberFormatter()
+	public let numberFormatter = NumberFormatter()
 
 
 	init() {

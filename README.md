@@ -3,8 +3,8 @@ klStringUtilities
 
 A small set of Swift 3 utilities I've come up with over the last few months, sometimes via Googling, sometimes on my own. Feel free to use them if you have a need for one or more of these shortcuts.
 
-## Current Version: 1.0.3
-I opened it up to the various OSes. I wonder if it will work...
+## Current Version: 1.0.4
+Made the NumberFormatters accessible, so you can change them as needed.
 
 ## Installation
 ### [CocoaPods](http://cocoapods.org/)

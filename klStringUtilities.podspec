@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "klStringUtilities"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "A small set of Swift string utilities and shortcuts."
   s.description  = <<-DESC
 	This is a small set of Swift 3.0 based string utilities providing some simple
