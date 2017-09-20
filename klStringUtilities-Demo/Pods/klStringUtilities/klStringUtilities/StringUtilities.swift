@@ -26,6 +26,7 @@ public class StringUtilities {
 		roundCurrencyFormatter.locale = NSLocale.current
 
 		numberFormatter.numberStyle = .none
+		numberFormatter.groupingSize = 3
 		numberFormatter.usesGroupingSeparator = true
 	}
 
@@ -33,27 +34,6 @@ public class StringUtilities {
 
 
 public extension String {
-
-	/// Shortcut for self.characters.count
-	///
-	/// - Returns: integer count of characters
-	var len: Int {
-		return self.characters.count
-	}
-
-
-	/// Counts the number of human-visible characters in a String. That is, multiple glyph characters are counted as one.
-	///
-	/// - Returns: integer count of human-visible characters
-	var humanLen: Int {
-		var count = 0
-		self.enumerateSubstrings(in: self.startIndex ..< self.endIndex, options: .byComposedCharacterSequences) { (_, _, _, _) in
-			count += 1
-		}
-
-		return count
-	}
-
 
 	/// A quick shortcut to remove any whitespace chars from the start and end of a string.
 	///
@@ -126,10 +106,10 @@ public extension String {
 		do {
 			let regEx = try NSRegularExpression(pattern: regExString, options: .useUnicodeWordBoundaries)
 			var results:[String] = []
-			for item in regEx.matches(in: self, options: .withTransparentBounds, range: NSMakeRange(0, self.len)) {
+			for item in regEx.matches(in: self, options: .withTransparentBounds, range: NSMakeRange(0, self.count)) {
 				for i in 0..<item.numberOfRanges {
-					if let rng = self.rangeFromNSRange(nsRange: item.rangeAt(i))  {
-						results += [self.substring(with: rng)]
+					if let rng = self.rangeFromNSRange(nsRange: item.range(at: i))  {
+						results += [String(self[rng])]
 					}
 				}
 			}

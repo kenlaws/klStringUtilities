@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate 
 
 
 	func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-		let txtAfterUpdate = String(textField.text!.replacingCharacters(in: textField.text!.rangeFromNSRange(nsRange: range)!, with: string))!
+		let txtAfterUpdate = String(textField.text!.replacingCharacters(in: textField.text!.rangeFromNSRange(nsRange: range)!, with: string))
 
 		switch textField {
 		case lenInput:
@@ -72,7 +72,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate 
 
 
 	func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-		let txtAfterUpdate = String(textView.text!.replacingCharacters(in: textView.text!.rangeFromNSRange(nsRange: range)!, with: text))!
+		let txtAfterUpdate = String(textView.text!.replacingCharacters(in: textView.text!.rangeFromNSRange(nsRange: range)!, with: text))
 
 		switch textView {
 		case autoTrimInput:
@@ -85,7 +85,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate 
 
 
 	func evaluateLen(input: String) {
-		lenResult.text = "\(input.len) characters, \(input.humanLen) human characters"
+		lenResult.text = "\(input.count) characters, \(input.characters.count) human characters"
 
 	}
 
@@ -105,7 +105,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate 
 	}
 
 
-	func keyboardWillBeShown(notification: NSNotification) {
+	@objc func keyboardWillBeShown(notification: NSNotification) {
 		guard let kbInfo = keyboardParts(info: notification.userInfo) else { return }
 
 		scrollBottom.constant = kbInfo.height
@@ -116,7 +116,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate 
 	}
 
 
-	func keyboardWillBeHidden(notification: NSNotification) {
+	@objc func keyboardWillBeHidden(notification: NSNotification) {
 		guard let kbInfo = keyboardParts(info: notification.userInfo) else { return }
 
 		scrollBottom.constant = 0

@@ -3,8 +3,8 @@ klStringUtilities
 
 A small set of Swift 3 utilities I've come up with over the last few months, sometimes via Googling, sometimes on my own. Feel free to use them if you have a need for one or more of these shortcuts.
 
-## Current Version: 1.0.4
-Made the NumberFormatters accessible, so you can change them as needed.
+## Current Version: 1.0.5
+This version is for Swift 4. I removed the length-based stuff, as that now works "as it should" in Swift 4. If you need the Swift 3 version, specify 1.0.4 in your Podfile.
 
 ## Installation
 ### [CocoaPods](http://cocoapods.org/)
@@ -21,14 +21,6 @@ Made the NumberFormatters accessible, so you can change them as needed.
 ## Documentation
 Until I have ample time, note that you can find at least simple examples of usage in both the Demo app and the `klStringUtilities_iOSTests` class.
 ### Extensions to String
-#### `.len: Int`
-Shortcut for self.characters.count.  
-**Returns:** integer count of characters  
-
-#### `.humanLen: Int`
-Counts the number of human-visible characters in a String. That is, multiple glyph characters are counted as one.  
-**Returns:** integer count of human-visible characters  
-
 #### `.autoTrim: String`
 A quick shortcut to remove any whitespace chars from the start and end of a string.  
 **Returns:** the String, stripped of leading and trailing whitespace  

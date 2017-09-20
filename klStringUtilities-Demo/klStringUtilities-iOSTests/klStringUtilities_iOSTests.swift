@@ -22,30 +22,6 @@ class klStringUtilities_iOSTests: XCTestCase {
         super.tearDown()
     }
     
-	func testStrLen() {
-		let t1 = "Hello."
-		let ln1 = t1.len
-		XCTAssert(ln1 == 6, "simple len test")
-	}
-
-	func testStrLen16() {
-		let t1 = "Smile😁多谢"
-		let ln1 = t1.len
-		XCTAssert(ln1 == 8, "16 bit char len test")
-	}
-
-	func testStrLenMultiGlyph() {
-		let t1 = "Smile🏆📦🐈👍🏼👲🏽💂🏻‍♀️👶🏼"
-		let ln1 = t1.len
-		XCTAssert(ln1 == 17, "16 bit char len test")
-	}
-
-	func testStrHumanLenMultiGlyph() {
-		let t1 = "Smile🏆📦🐈👍🏼👲🏽💂🏻‍♀️👶🏼"
-		let ln1 = t1.humanLen
-		XCTAssert(ln1 == 12, "multi glyph char human test")
-	}
-
 	func testAutoTrimNegative() {
 		let t1 = "hello"
 		XCTAssert(t1.autoTrim == "hello", "negative autoTrim test")
@@ -137,7 +113,7 @@ class klStringUtilities_iOSTests: XCTestCase {
 	func testBasicIntString() {
 		let t1 = 8554.6
 		let result = t1.intString
-		XCTAssert(result == "8,555", "The result should the number rounded with a separator.")
+		XCTAssert(result == "8,555", "The result should the number rounded with a separator: \(result)")
 	}
 
 	func testBasicCurrencyString() {

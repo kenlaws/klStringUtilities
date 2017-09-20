@@ -9,13 +9,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "klStringUtilities"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "A small set of Swift string utilities and shortcuts."
   s.description  = <<-DESC
-	This is a small set of Swift 3.0 based string utilities providing some simple
+	This is a small set of Swift 4.0 based string utilities providing some simple
 	shortcuts and conveniences that, well, I found useful. Maybe you will, too.
-	However, the primary use of this pod at first will be to support a couple of
-	bigger ones coming after it.
                    DESC
 
   s.homepage     = "https://github.com/kenlaws/klStringUtilities"
@@ -24,10 +22,10 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/kenlaws"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "10.0"
+  s.ios.deployment_target = "11.0"
   # s.osx.deployment_target = "10.12"
-  s.watchos.deployment_target = "3.2"
-  s.tvos.deployment_target = "10.2"
+  s.watchos.deployment_target = "4.0"
+  s.tvos.deployment_target = "11.0"
 
   s.source       = { :git => "https://github.com/kenlaws/klStringUtilities.git", :tag => s.version.to_s }
 

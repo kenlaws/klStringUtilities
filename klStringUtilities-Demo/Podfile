@@ -1,17 +1,17 @@
 use_frameworks!
 target 'klStringUtilities-Demo' do
-	platform :ios, '10.0'
+	platform :ios, '11.0'
 	pod "klStringUtilities"
 end
 
 target 'klStringUtilities-iOSTests' do
-	platform :ios, '10.0'
+	platform :ios, '11.0'
 	pod "klStringUtilities"
 end
 
 
 
 target 'klStringUtilities-tvOSTests' do
-	platform :tvos, '10.2'
+	platform :tvos, '11.0'
 	pod "klStringUtilities"
 end

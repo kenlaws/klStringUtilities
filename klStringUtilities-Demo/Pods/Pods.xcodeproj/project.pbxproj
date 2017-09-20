@@ -57,16 +57,16 @@
 		003FB100A2560BC4987BBC0D8440D939 /* Pods-klStringUtilities-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		06189F984F4337802C9AE0CB5C4FE878 /* StringUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtilities.swift; path = klStringUtilities/StringUtilities.swift; sourceTree = "<group>"; };
 		09AFE7CB5805313F0A70ED31E31DCF24 /* Pods-klStringUtilities-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klStringUtilities-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		14F36F02527CB345F0D0A6B54B9067ED /* klStringUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = klStringUtilities.framework; path = "klStringUtilities-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F36F02527CB345F0D0A6B54B9067ED /* klStringUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = klStringUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7718C04EA9F8D31D3F9ED5647EA4E9 /* Pods-klStringUtilities-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2BE3E5E302A55A8E252607D67CEC1ABB /* Pods_klStringUtilities_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klStringUtilities_Demo.framework; path = "Pods-klStringUtilities-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE3E5E302A55A8E252607D67CEC1ABB /* Pods_klStringUtilities_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3302090309FE535A25084AE96C007BD7 /* Pods-klStringUtilities-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klStringUtilities-Demo-umbrella.h"; sourceTree = "<group>"; };
 		37051DA786BD1E05940AB724558A9C9C /* klStringUtilities-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "klStringUtilities-tvOS-prefix.pch"; path = "../klStringUtilities-tvOS/klStringUtilities-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		3D9C38D094456072BF073A0E7C8F59AF /* Pods-klStringUtilities-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klStringUtilities-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		409FD417AA486AF3CC72C85071F090D3 /* Pods-klStringUtilities-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klStringUtilities-iOSTests-dummy.m"; sourceTree = "<group>"; };
-		4E40C5C57F8B865B30DE3BED5888FFEF /* klStringUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = klStringUtilities.framework; path = "klStringUtilities-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		520BE5C79B475FC7AC7130B47CB34F52 /* Pods-klStringUtilities-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klStringUtilities-iOSTests.modulemap"; sourceTree = "<group>"; };
-		5899B9F5E3F7AC0716388A01A16F8348 /* Pods-klStringUtilities-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klStringUtilities-Demo.modulemap"; sourceTree = "<group>"; };
+		4E40C5C57F8B865B30DE3BED5888FFEF /* klStringUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = klStringUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520BE5C79B475FC7AC7130B47CB34F52 /* Pods-klStringUtilities-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-klStringUtilities-iOSTests.modulemap"; sourceTree = "<group>"; };
+		5899B9F5E3F7AC0716388A01A16F8348 /* Pods-klStringUtilities-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-klStringUtilities-Demo.modulemap"; sourceTree = "<group>"; };
 		6958D196C72439AE8F544C3130F5F49E /* klStringUtilities-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "klStringUtilities-iOS.xcconfig"; sourceTree = "<group>"; };
 		6A02D7C0362E41452675A1CD773C6C29 /* klStringUtilities-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "klStringUtilities-iOS-prefix.pch"; sourceTree = "<group>"; };
 		6D68955E4A68462A8E855F5E4E39B07F /* Pods-klStringUtilities-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,18 +76,18 @@
 		76672213C15758ACA7F2F6714E7C72DF /* Pods-klStringUtilities-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF1ED391007BF43439E6E473DDBDE1E /* Pods-klStringUtilities-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klStringUtilities-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A50BE34FA7AC79B7156A30486A9F131 /* klStringUtilities-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "klStringUtilities-tvOS.xcconfig"; path = "../klStringUtilities-tvOS/klStringUtilities-tvOS.xcconfig"; sourceTree = "<group>"; };
-		8D8D979D7705C0B32059E54294DA7FAB /* Pods-klStringUtilities-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klStringUtilities-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		8D8D979D7705C0B32059E54294DA7FAB /* Pods-klStringUtilities-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-klStringUtilities-tvOSTests.modulemap"; sourceTree = "<group>"; };
 		922196E4B9A8DF0BA58D40DC605C2256 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9367F659C78F167F23FA34A4FBDBB46A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9580D786E709B5FEC6C4CBE1CA454F6D /* klStringUtilities-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "klStringUtilities-iOS.modulemap"; sourceTree = "<group>"; };
-		9991BCEB16340717B79EC4851AE3F377 /* Pods_klStringUtilities_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klStringUtilities_iOSTests.framework; path = "Pods-klStringUtilities-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9580D786E709B5FEC6C4CBE1CA454F6D /* klStringUtilities-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "klStringUtilities-iOS.modulemap"; sourceTree = "<group>"; };
+		9991BCEB16340717B79EC4851AE3F377 /* Pods_klStringUtilities_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0A6BE9F53EAD5DC2061E6A8CF36A59 /* Pods-klStringUtilities-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-tvOSTests-resources.sh"; sourceTree = "<group>"; };
 		9E15692DCE13EE01FED948C5E505039B /* Pods-klStringUtilities-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		A224091C7FA00F6284685D13EC3584E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6969A241922F447E5A72CDF54ACDD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../klStringUtilities-tvOS/Info.plist"; sourceTree = "<group>"; };
 		BA768BD9A73CC72F4F9760F576BCD18E /* Pods-klStringUtilities-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klStringUtilities-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C22B8283FBEC9E0FD1A662C7D7680E54 /* Pods_klStringUtilities_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klStringUtilities_tvOSTests.framework; path = "Pods-klStringUtilities-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22B8283FBEC9E0FD1A662C7D7680E54 /* Pods_klStringUtilities_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klStringUtilities_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C548A2F4AC09027DB8B28B330E7E982B /* Pods-klStringUtilities-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		C604D501FDA2486FE8434A48C0B564E2 /* klStringUtilities-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "klStringUtilities-tvOS-umbrella.h"; path = "../klStringUtilities-tvOS/klStringUtilities-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		C8421C918713C09030F373DD216B232D /* Pods-klStringUtilities-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klStringUtilities-tvOSTests-dummy.m"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		E20176655E46B2857C74A77443AC4CAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E2940AD454AED21D1DF95C228F3AF950 /* Pods-klStringUtilities-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klStringUtilities-Demo-resources.sh"; sourceTree = "<group>"; };
 		E356D89F4CBE4BB6C929BEF7EACE444B /* Pods-klStringUtilities-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klStringUtilities-Demo-dummy.m"; sourceTree = "<group>"; };
-		E48F52F477A8B16722E469853544D791 /* klStringUtilities-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "klStringUtilities-tvOS.modulemap"; path = "../klStringUtilities-tvOS/klStringUtilities-tvOS.modulemap"; sourceTree = "<group>"; };
+		E48F52F477A8B16722E469853544D791 /* klStringUtilities-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "klStringUtilities-tvOS.modulemap"; path = "../klStringUtilities-tvOS/klStringUtilities-tvOS.modulemap"; sourceTree = "<group>"; };
 		E6B28DA5DF9B095F8C343C028FB73371 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E83A1327ED7FAD9C1709FF00CB2C6EB3 /* Pods-klStringUtilities-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klStringUtilities-iOSTests-umbrella.h"; sourceTree = "<group>"; };
 		EC9C5CA2A798BED88A7892CD676D4B5A /* Pods-klStringUtilities-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klStringUtilities-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,7 +188,6 @@
 				06189F984F4337802C9AE0CB5C4FE878 /* StringUtilities.swift */,
 				75CB1B646BD7BE58A77211095FCF5F0B /* Support Files */,
 			);
-			name = klStringUtilities;
 			path = klStringUtilities;
 			sourceTree = "<group>";
 		};
@@ -447,7 +446,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					8E363403BF80CBB8950D33C6728BA688 = {
+						LastSwiftMigration = 0900;
+					};
+					A64F6F3CEA5E39799838F4E744D9C928 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -564,7 +571,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -677,7 +685,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -711,7 +720,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -844,7 +854,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -852,14 +864,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -889,7 +907,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -897,15 +917,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -992,7 +1018,8 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VERSIONING_SYSTEM = "apple-generic";
